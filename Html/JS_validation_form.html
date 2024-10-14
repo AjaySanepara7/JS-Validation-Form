@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Css/JS_validation_form.css">
+    
+</head>
+<body>
+
+    <h1 class="text-center pt-5">Responsive Registration form</h1>
+
+
+    <form class="col-sm-10 mx-auto py-5" name="myForm">
+
+        <div>
+            <div class="input-group mt-5">
+                <span class="input-group-text border border-2 border-dark">
+                    <img src="../Assets/image.png" class="w-100 h-100" alt="mail-logo">
+                </span>
+                <input type="text" id="email" class="form-control border border-2 border-dark" placeholder="Email" name="email">
+            </div>
+            <span id="email_span"></span>
+        </div>
+
+
+        <div>
+            <div class="input-group mt-5">
+                <span class="input-group-text border border-2 border-dark">
+                    <img src="../Assets/lock.png" class="w-100 h-100" alt="mail-logo">
+                </span>
+                <input type="text" id="pass1" class="form-control border border-2 border-dark" placeholder="Password" name="pass1">
+            </div>
+            <span id="pass1_span"></span>
+        </div>
+
+
+        <div>
+            <div class="input-group mt-5">
+                <span class="input-group-text border border-2 border-dark">
+                    <img src="../Assets/lock.png" class="w-100 h-100" alt="mail-logo">
+                </span>
+                <input type="text" id="pass2" class="form-control border border-2 border-dark" placeholder="Re-type Password" name="pass2">
+            </div>
+            <span id="pass2_span"></span>
+        </div>
+
+
+
+
+        <div class="row justify-content-between mt-5">
+
+
+            <div class="col-sm-5">
+                <div class="input-group ">
+                    <span class="input-group-text border border-2 border-dark">
+                        <img src="../Assets/person.png" class="w-100 h-100" alt="mail-logo">
+                    </span>
+                    <input type="text" id="firstname" class="form-control border border-2 border-dark" placeholder="First Name" name="firstname">
+                </div>
+                <span id="firstname_span"></span>
+            </div>
+
+
+
+
+            <div class="col-sm-5">
+                <div class="input-group ">
+                    <span class="input-group-text border border-2 border-dark">
+                        <img src="../Assets/person.png" class="w-100 h-100" alt="mail-logo">
+                    </span>
+                    <input type="text" id="lastname" class="form-control border border-2 border-dark" placeholder="Last Name" name="lastname">
+                </div>
+                <span id="lastname_span"></span>
+            </div>
+
+
+        </div>
+
+        <div>
+            <div class="d-flex pt-5 pb-2">
+                <div class="w-25">
+                        <input type="radio" id="radio1" name="radio">
+                        <label for="radio1">Male</label>
+                </div>
+
+                <div class="w-25">    
+                        <input type="radio" id="radio2" name="radio">
+                        <label for="radio2">Female</label>
+                </div>
+            </div>
+            <span id="radio_span"></span>
+        </div>
+
+
+        <div>
+            <select class="form-select mt-4 border border-2 border-dark" id="select1" name="select1">
+
+                <option value=""disabled selected>Select a country</option>
+                <option value="India">India</option>
+                <option value="Japan">Japan</option>
+                <option value="USA">USA</option>
+                <option value="China">China</option>
+                <option value="France">France</option>
+                
+            </select>
+            <span id="select_span"></span>
+        </div>
+
+
+        <div>
+            <div class="mt-5">
+                <input type="checkbox" id="check1" name="check">
+                <label for="check1">I agree with terms and conditions</label>
+            </div>
+            <span id="check_span"></span>
+
+            <div class="my-4">
+                <input type="checkbox" id="check2" name="check">
+                <label for="check2">I want to receive the news</label>
+            </div>
+            
+        </div>
+
+
+        <input type="submit" id="submit" class="btn btn-warning text-light w-100 rounded-0 p-2 my-3" value="Register">
+
+
+    </form>
+    
+</body>
+<script src="../JS/JS_validation_form.js"></script>
+</html>

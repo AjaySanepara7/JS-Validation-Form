@@ -1,0 +1,68 @@
+span{
+    color: red;
+    display: none;
+}
+
+.email_span{
+    display: block;
+}
+
+.email_span_success{
+    display: none;
+}
+
+.pass1_span{
+    display: block;
+}
+
+.pass1_span_success{
+    display: none;
+}
+
+.pass2_span{
+    display: block;
+}
+
+.pass2_span_success{
+    display: none;
+}
+
+.firstname_span{
+    display: block;
+}
+
+.firstname_span_success{
+    display: none;
+}
+
+.lastname_span{
+    display: block;
+}
+
+.lastname_span_success{
+    display: none;
+}
+
+.radio_span{
+    display: block;
+}
+
+.radio_span_success{
+    display: none;
+}
+
+.check_span{
+    display: block;
+}
+
+.check_span_success{
+    display: none;
+}
+
+.select_span{
+    display: block;
+}
+
+.select_span_success{
+    display: none;
+}
